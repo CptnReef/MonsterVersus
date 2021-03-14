@@ -1,0 +1,32 @@
+{
+  "name": "monsterversus",
+  "version": "1.0.0",
+  "description": "Web-Base RPG Game ...in-progress.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CptnReef/MonsterVersus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CptnReef/MonsterVersus/issues"
+  },
+  "homepage": "https://github.com/CptnReef/MonsterVersus#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "exphbs": "^1.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "express-validator": "^6.10.0",
+    "express-validators": "^1.0.4",
+    "handlebars": "^4.7.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.12.0"
+  }
+}
