@@ -1,0 +1,112 @@
+body {
+    background: #d9ffc5;
+ }
+ 
+ .map {
+    position:relative;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/21542/DogDemoMap.png);
+    width: calc(192px * 4);
+    height: calc(144px * 4);
+    background-size: 100%;
+    margin: 1em auto 0 auto;
+ }
+ 
+ .pixelart {
+    image-rendering: pixelated;
+ }
+ 
+ .character {
+    position: absolute;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/21542/Characters.png);
+    width: 128px;
+    height: 128px;
+    background-size: 200%;
+ }
+ .character.robber {
+    background-position-x: 100%;
+ }
+ 
+ .toy {
+    cursor: pointer;
+    position: absolute;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/21542/Toys.png?v=1);
+    width: 64px;
+    height: 64px;
+    background-size: 400%;
+ }
+ 
+ .dog {
+    left: 257px;
+    top: 135px;
+ }
+ 
+ .robber1 {
+    left: 530px;
+    top: 240px;
+ }
+ .robber2 {
+    left: 80px;
+    top: 180px;
+ }
+ .robber3 {
+    left: 550px;
+    top: 30px;
+ }
+ .robber4 {
+    left: 330px;
+    top: 318px;
+ }
+ 
+ .toy1 {
+    left: 111px;
+    top: 280px;
+ }
+ .toy1.rescued {
+    left: 231px;
+    top: 180px;
+ }
+ 
+ .toy2 {
+    left: 560px;
+    top: 350px;
+    background-position-x: 33.3%;
+ }
+ .toy2.rescued {
+    left: 300px;
+    top: 242px;
+ }
+ 
+ .toy3 {
+    left: 361px;
+    top: 425px;
+    background-position-x: 66.6%;
+ }
+ .toy3.rescued {
+    left: 245px;
+    top: 225px;
+ }
+ 
+ .toy4 {
+    left: 580px;
+    top: 140px;
+    background-position-x: 100%;
+ }
+ .toy4.rescued {
+    left: 345px;
+    top: 211px;
+ }
+ 
+ 
+ .text-container {
+    display: flex;
+    justify-content: center;
+ }
+ .text-container p {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    background: #000;
+    color: #fff;
+    padding: 1em;
+    margin: 0;
+    font-size: 1.1em;
+ }
